@@ -5,5 +5,5 @@ app = Starlette()
 
 
 @app.route("/")
-async def homepage(request):
+async def auth(request):
     return JSONResponse({"message": "authorized!"})
